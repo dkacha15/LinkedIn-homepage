@@ -1,0 +1,368 @@
+body{
+    background-color:#f2f2f2;
+}
+
+.header{
+    position: fixed;
+    width: auto;
+    margin: auto;
+    height: 52px;
+    background: #283e4a;
+    top:0;
+    left:0;
+    color: white;
+    z-index: 100;
+    display: block;
+}
+
+.icon_bar{
+    height: 52px;
+    max-width: 1128px;
+    min-width: 480px;
+    margin: 0 390px 0 390px;
+    max-width: 1128px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.main_icon{
+    height: 34px !important;
+    width: 34px !important;
+    margin: 9px 0 9px 0;
+    cursor: pointer;
+}
+
+.search_bar{
+    width: 280px;
+    height: 34px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 14px;
+    padding: 0px 8px 0px 28px;
+    margin: 9px 0px 9px 10px;
+    background-color: #e1e9ee;
+    background-image: url('Icon/search_icon.png');
+    background-size: 13px;
+    background-position: 10px 10px ;
+    background-repeat: no-repeat;    
+}
+
+.home{
+    height: 44px;
+    width: 80px;
+    margin: 8px 0 0 140px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.people{
+    height: 44px;
+    width: 80px;
+    margin: 8px 0 0 0px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.icons{
+    width: 24px;
+    height: 24px;
+    margin: 1px 0px 0px 28px;
+    position: relative;
+    display: block;
+}
+
+.user_photo{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #c7d1d8;
+    border-radius: 50%;
+    margin: 1px 0px 0px 28px;
+    position: relative;
+    display: block;
+}
+
+.line{
+    width: 1px;
+    height: 52px;
+    border-left: 1px solid #c7d1d8;
+}
+
+.work{
+    height: 44px;
+    width: 80px;
+    margin: 8px 0 0 0px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.arrow{
+    width: 10px;
+    height: 7px;
+    margin: 5px 0 0 5px;
+}
+
+.text{
+    margin: 0 0 0 20px !important;
+}
+
+.ad{
+    width: 100px;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #dccea4;
+    margin: 8px 0 0 90px;
+}
+
+.body{
+    width: 1128px;
+    height: 1000px;
+    margin: 0 390px 0 380px;
+    display: flex;
+}
+
+.left{
+    width: 216px;
+    height: 800px;
+    background-color: white;
+    margin-top: 80px;
+    box-shadow: rgba(0, 0,0, 0.15) 0px 0px 0px 1px,rgba(0, 0,0, 0.2) 0px 2px 3px 0px;
+}
+
+.center{
+    width: 552px;
+    margin-top: 80px;
+    margin-left: 25px;
+}
+
+.right{
+    width: 312px;
+    height: 800px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 25px;
+    box-shadow: rgba(0, 0,0, 0.15) 0px 0px 0px 1px,rgba(0, 0,0, 0.2) 0px 2px 3px 0px;
+}
+
+.post{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: auto;
+    width: 552px;
+    background-color: white;
+    box-shadow: rgba(0, 0,0, 0.15) 0px 0px 0px 1px,rgba(0, 0,0, 0.2) 0px 2px 3px 0px;
+    margin-bottom: 20px;
+}
+
+.other{
+    height: 41px;
+    width: 552px;
+    border-bottom: 1px solid #e6e9ec;
+    display: flex;
+    padding-left: 10px;
+}
+
+.users{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: auto;
+    margin-top: 10px;
+}
+
+.follow{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    width: auto;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.company{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: auto;
+    margin-left: 5px ;
+    margin-top: 10px;
+}
+
+.more{
+    width: 24px;
+    height: 24px;
+    margin-top: 4px;
+    margin-left: 70px;
+}
+
+.name{
+    height: 64px;
+    display: flex;
+}
+
+.profile_photo{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}
+
+.profile_follow{
+    width: 82px;
+    height: 32px;
+    color: #0072b0;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left: 310px;
+    cursor: pointer;
+}
+
+.plus{
+    width: 14px;
+    height: 14px;
+    margin: 9px 0px 0 10px;
+}
+
+.profile_name{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+    cursor: pointer;
+}
+
+.profile_followers{
+    font-size: 12px;
+    font-weight: normal;
+    margin: 30px 0 0 -56px;
+}
+
+.profile_type{
+    font-size: 12px;
+    font-weight: normal;
+    margin: 45px 0 0 -104px;
+}
+
+.post_image{
+    width: 552px !important;
+    height: auto;
+}
+
+.like{
+    height: 35px;
+    display: flex;
+    border-bottom: 1px solid #e6e9ec;
+    margin-left: 10px;
+}
+
+.like_icon{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 20px;
+    width: auto;
+}
+
+.total_likes{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.like_dot{
+    width: 3px;
+    height: 3px;
+    margin-top: 14px;
+    margin-left: 4px;
+    opacity: 70%;
+}
+
+.total_comments{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.button_bar{
+    height: 56px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.button1{
+    margin-top: 4px;
+    height: 48px;
+    width: 67px;
+    cursor: pointer;
+    display: flex;
+}
+
+.button2{
+    margin-top: 4px;
+    height: 48px;
+    width: 105px;
+    cursor: pointer;
+    display: flex;
+}
+
+.button3{
+    margin-top: 4px;
+    height: 48px;
+    width: 75px;
+    cursor: pointer;
+    display: flex;
+}
+
+.button_icon{
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.button_text{
+    margin-top: 13px;
+    margin-left: 5px;
+}
+
+.more_personal{
+    width: 24px;
+    height: 24px;
+    margin-top: 4px;
+    margin-left: 350px;
+}
+
+.personal_degree{
+    font-size: 12px;
+    font-weight: normal;
+    margin: 30px 0 0 -85px;
+}
+
+.days{
+        font-size: 12px;
+        font-weight: normal;
+        margin: 45px 0 0 -80px;  
+}
+
+.content{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.persoal_profile_photo{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+
